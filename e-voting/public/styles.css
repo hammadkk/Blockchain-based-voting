@@ -1,0 +1,321 @@
+/* -------------------------Navbar---------------------------- */
+.collapse {
+  text-align: center;
+}
+
+.navlink {
+  margin-left: 25px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.containerr {
+  padding: 3% 0%;
+}
+
+.mainnav {
+  background-color: #252424;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .nav-feature-box1 h1 {
+  color: #ffffff;
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+} */
+
+.nav-feature-box2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* 
+----------------------------Navbar-animation-h1------------------------- */
+
+.typewriter {
+  background-color: #252424;
+  min-width: 500px;
+  padding: 1em 2em 1em 1.5em;
+  border: none;
+  margin: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typewriter svg {
+  padding-right: 2em;
+}
+
+.typewriter h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  width: 0;
+  max-width: fit-content;
+  overflow: hidden;
+  border-right: 0.05em solid #464545;
+  white-space: nowrap;
+  margin: 0;
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.typing-erase {
+  animation: 8s typing-erase 0.3s steps(50, end) infinite,
+    blink-caret 0.5s step-end infinite;
+}
+
+/* The type and erase effect */
+@keyframes typing-erase {
+  0% {
+    width: 0;
+  }
+  80% {
+    width: 100%;
+  }
+  90%,
+  100% {
+    width: 0;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: gray;
+  }
+}
+
+/* ----------------------------Features------------------------- */
+
+.feature-title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.feature-box {
+  padding: 4.5%;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 0%;
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ff4c68;
+}
+
+.icon:hover {
+  color: #252424;
+}
+
+.feature-container {
+  margin: 50px 0;
+}
+
+/* ----------------------------------Testimonials------------------------------ */
+.test-img {
+  margin: 0 auto;
+}
+
+.slider {
+  background-color: #252424;
+}
+
+.carousel-display-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.customers-container {
+  margin: 8% 0;
+  background-color: #252424;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.customers-carousel-container {
+  margin: 3%;
+}
+.customers-container-heading {
+  color: #fefefe;
+  margin: 2% auto;
+  text-align: center;
+  font-weight: 700;
+}
+.customers-carousel-img {
+  height: 150px;
+  width: 150px;
+  margin: 50px auto 3%;
+  bottom: 50px;
+  border-radius: 50%;
+}
+.carousel-caption {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 1.25rem;
+  padding-top: 1.25rem;
+  margin: auto;
+  color: #fefefe;
+  text-align: center;
+  width: 50%;
+}
+.customers-carousel-caption p {
+  color: rgb(209, 202, 202);
+}
+
+/* .carousel-inner {
+  padding: 3%;
+} */
+
+.customers-carousel-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----------------------------------Details---------------------------- */
+
+.card {
+  background: #fff;
+  border-radius: 50px;
+  padding: 30px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin-bottom: 10px;
+  margin: 20px;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card__header1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-bottom: 10px;
+}
+
+.card__header h3 {
+  font-size: 15px;
+  color: black;
+}
+
+.card__header p {
+  opacity: 50%;
+  color: black;
+}
+
+.card__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #996ed9;
+  margin-right: 10px;
+}
+
+.card__lead {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.card__quote {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  opacity: 70%;
+  color: black;
+}
+
+/* ---------------------------About-Us--------------------------------- */
+.about-details {
+  text-align: justify;
+  font-size: 1.2rem;
+  padding: 0 8%;
+  color: #ffffff;
+}
+
+.about-img {
+  max-width: 100%;
+}
+
+.about-container {
+  margin-top: 50px;
+  background-color: #252424;
+}
+
+.box2 {
+  display: flex;
+  align-items: center;
+}
+
+.about-heading {
+  margin-top: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* ------------------------------------Button--------------------------------------- */
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.vote-button {
+  font-size: 2rem;
+  background-color: #ff4c68;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.vote-button:hover {
+  background-color: #996ed9;
+}
+
+/* --------------------------------Footer---------------------------------------- */
+
+.Footer-section {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.Footer-section p {
+  padding: 3%;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #252424;
+}
+/* -----------------------------------------Reponsive----------------------------- */
+@media screen and (max-width: 1000px) {
+  .logo-des {
+    display: none;
+  }
+  .nav-feature-box1 h1 {
+    margin-top: 50px;
+  }
+}
